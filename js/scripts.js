@@ -12,7 +12,7 @@ $(document).ready(function(){//variant-remove
 		}
 	});
 	
-	// Offscreen Nav
+	// Offscreen Nav{passive: true}
 	
 	$('.offscreen-toggle').click(function(){
 		$('.main-container').toggleClass('reveal-nav');
